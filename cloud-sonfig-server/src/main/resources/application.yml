@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: CONFIG-SERVER
+  cloud:    config:      server:        git:          uri: https://github.com/sreemukhareddy/config-server-codebuffer
+          clone-on-start: true
+
+server:  port: 9296
